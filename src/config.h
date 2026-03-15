@@ -9,7 +9,7 @@
 
 //! Enable building with Hi-DPI image resources.
 // When disabled, only build with image resources at 100% scaling.
-#define NP2_ENABLE_HIDPI_IMAGE_RESOURCE			1
+#define NP2_ENABLE_HIDPI_IMAGE_RESOURCE			0
 
 //! Enable the .LOG feature
 // When enabled and Notepad4 opens a file starts with .LOG,
@@ -18,7 +18,7 @@
 #define NP2_ENABLE_DOT_LOG_FEATURE				0
 
 //! Enable localization with satellite resource DLLs.
-#define NP2_ENABLE_APP_LOCALIZATION_DLL			1
+#define NP2_ENABLE_APP_LOCALIZATION_DLL			0
 //! Enable test localization dialog layout with default UI font for target locale.
 #define NP2_ENABLE_TEST_LOCALIZATION_LAYOUT		0
 
